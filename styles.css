@@ -97,6 +97,11 @@ p {
   padding: 0.94rem 3.12rem;
 }
 
+.cart-btn:hover,
+:active {
+  background-color: var(--dark-cyan);
+}
+
 .cart-btn img {
   width: 10%;
   margin-right: 0.25rem;
