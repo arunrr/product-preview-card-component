@@ -37,11 +37,13 @@ p {
   background-color: var(--white);
   border-radius: 0.66rem;
 }
+
 .product-card img {
   border-top-left-radius: 0.66rem;
   border-top-right-radius: 0.66rem;
   width: 100%;
 }
+
 .product-card-details {
   padding: 1.56rem;
 }
@@ -58,10 +60,11 @@ p {
 
 .product-text p {
   margin-bottom: 0.66rem;
+  line-height: 1.5rem;
 }
 
 .product-price {
-  margin: 0.66rem 0;
+  margin: 0.7rem 0;
   display: flex;
   align-items: center;
 }
@@ -95,7 +98,7 @@ p {
 }
 
 .cart-btn img {
-  width: 7%;
+  width: 10%;
   margin-right: 0.25rem;
 }
 
@@ -109,4 +112,15 @@ p {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 800px) {
+  .product-card {
+    width: 34rem;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .product-card > * {
+    flex: 1;
+  }
 }
