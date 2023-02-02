@@ -38,6 +38,10 @@ p {
   border-radius: 0.66rem;
 }
 
+.product-card > * {
+  flex: 0;
+}
+
 .product-card img {
   border-top-left-radius: 0.66rem;
   border-top-right-radius: 0.66rem;
